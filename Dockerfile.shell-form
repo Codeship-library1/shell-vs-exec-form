@@ -1,0 +1,4 @@
+FROM ubuntu:xenial
+
+COPY loop.sh /usr/local/bin/
+CMD loop.sh
